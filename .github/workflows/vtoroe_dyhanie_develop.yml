@@ -77,7 +77,7 @@ jobs:
           # Удаляем все имеющиеся на сервере docker-образы.
           # Запускаем docker-compose в фоновом режиме.
           script: |
-            cd /home/${{ secrets.USER }}/"
+            cd /home/${{ secrets.USER }}/
             tar -xvf deploy.tar
             rm deploy.tar
             cd build/
