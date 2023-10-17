@@ -3,8 +3,8 @@ CNTRCT_LINK = (
     '1d0FXxWzFSTcNEy9hvRku-VvMd_3yRTzFHgFPvCcU9-U/edit'
 )
 BILLS_LINK = (
-    'https://docs.google.com/document/d/1jN80LdqesChmaVzsHCbnERHA60O5O1cK/'
-    'edit?usp=sharing&ouid=101141304038805869189&rtpof=true&sd=true'
+    'https://docs.google.com/document/d/16VAPahttps:/docs.google.com/document/'
+    'd/16VAPaJGFiXnDdfSEljCmxDCKSKH2iZBVUx2Wg_Bdz7o/edit?usp=sharing'
 )
 ACC_PERSONS_LINK = (
     'https://docs.google.com/document/d/'
@@ -59,28 +59,31 @@ REG_SALARY_LINK = (
     'edit?usp=sharing&ouid=101141304038805869189&rtpof=true&sd=true'
 )
 
-REG_FORM_MESSAGE = f'''
-Здесь собраны основные регламенты оформления договоров и документов,
-а также шаблоны кадровых заявлений\.
+REG_FORM_MESSAGE = (
+    'Здесь собраны основные регламенты оформления договоров и документов, '
+    r'а также шаблоны кадровых заявлений\.\n'
+    f'''
+* Финансы *
 
-*Финансы*
+1\\. [Регламент подготовки, согласования и подписания договоров]({CNTRCT_LINK})
+2\\. [Регламент согласования счетов]({BILLS_LINK})
+3\\. [Положение по подотчетным лицам]({ACC_PERSONS_LINK})
 
-1\. [Регламент подготовки, согласования и подписания договоров]({CNTRCT_LINK})
-2\. [Регламент согласования счетов]({BILLS_LINK})
-3\. [Положение по подотчетным лицам]({ACC_PERSONS_LINK})
+* HR *
 
-*HR*
-
-1\. [Регламент по отпускам]({REG_VACATION_LINK})
-2\. [Шаблоны заявлений по отпускам]({TEMP_VACATION_LINK})
-3\. [Регламент по командировкам]({REG_BUSINESS_TRIP_LINK})
-4\. [Шаблоны заявлений по командировкам]({TEMP_BUSINESS_TRIP_LINK})
-5\. [Регламент по приему на работу]({REG_OFFER_LINK})
-6\. [Шаблоны заявлений по приему на работу]({TEMP_OFFER_LINK})
-7\. [Регламент по переводу на другую работу]({REG_OTHR_OFFER_LINK})
-8\. [Шаблоны заявлений по переводу на другую должность]({TEMP_OTHR_OFFER_LINK})
-9\. [Регламент по увольнению]({REG_FIRING_LINK})
-10\. [Шаблоны заявлений по увольнению]({TEMP_FIRING_LINK})
-11\. [Регламент оформления работы в выходной]({REG_WEEKEND_LINK})
-12\. [Регламент по изменению оклада/должности]({REG_SALARY_LINK})
+1\\. [Регламент по отпускам]({REG_VACATION_LINK})
+2\\. [Шаблоны заявлений по отпускам]({TEMP_VACATION_LINK})
+3\\. [Регламент по командировкам]({REG_BUSINESS_TRIP_LINK})
+4\\. [Шаблоны заявлений по командировкам]({TEMP_BUSINESS_TRIP_LINK})
+5\\. [Регламент по приему на работу]({REG_OFFER_LINK})
+6\\. [Шаблоны заявлений по приему на работу]({TEMP_OFFER_LINK})
+7\\. [Регламент по переводу на другую работу]({REG_OTHR_OFFER_LINK})
+8\\. [Шаблоны заявлений по переводу на другую должность]({
+                                                        TEMP_OTHR_OFFER_LINK
+                                                        })
+9\\. [Регламент по увольнению]({REG_FIRING_LINK})
+10\\. [Шаблоны заявлений по увольнению]({TEMP_FIRING_LINK})
+11\\. [Регламент оформления работы в выходной]({REG_WEEKEND_LINK})
+12\\. [Регламент по изменению оклада/должности]({REG_SALARY_LINK})
 '''
+)
