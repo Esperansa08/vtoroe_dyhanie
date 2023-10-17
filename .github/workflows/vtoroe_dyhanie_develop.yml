@@ -59,7 +59,7 @@ jobs:
     needs: copy_project_on_server
     # На Этапе разработки стоит условие, что push должен осуществляться в ветку develop
     # После тестирования необходимо поменять на master
-    if: github.ref_name == 'develop'
+    if: github.ref_name == 'master'
     steps:
       - name: Run bot in docker
         uses: appleboy/ssh-action@master
