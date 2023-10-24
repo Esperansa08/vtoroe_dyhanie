@@ -1,8 +1,7 @@
 import logging
 
-from telegram.ext import ContextTypes
 from telegram import Update
-
+from telegram.ext import ContextTypes
 
 
 async def error_handler(
