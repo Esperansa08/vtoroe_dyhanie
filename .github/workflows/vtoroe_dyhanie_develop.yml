@@ -3,7 +3,7 @@ name: Vtoroe_dyhanie_develop
 # Workflow будет срабатывать на команду push в ветку develop
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 # После срабатывания "on" выполнятся следующие действия:
 jobs:
