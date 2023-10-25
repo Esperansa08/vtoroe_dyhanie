@@ -10,7 +10,6 @@ def send_email(subject, body_text):
     '''
     # Создание безопасного контекста SSL
     context = ssl.create_default_context()
-
     message = '\r\n'.join(
         (
             f'From: {settings.sender_email}',
