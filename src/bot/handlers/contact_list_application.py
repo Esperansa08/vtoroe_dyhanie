@@ -39,8 +39,8 @@ async def find_contact_by_fio(
     # query.data из query = update.callback_query и пойдет в базу искать
     # контакты, а на выходе вернет контакт
     # и пропишет результат в строчку ниже
+    #  await query.answer()
 
-    #    await query.answer()
     await update.message.reply_text(
         text='Контакты нужного человека', reply_markup=main_menu_markup
     )

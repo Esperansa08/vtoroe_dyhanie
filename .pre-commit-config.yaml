@@ -26,7 +26,6 @@ repos:
           - flake8-return
         name: flake8
         entry: flake8
-        #exclude: '^(?!versions/)'
         files: ^(bot/|core/|src/)
         language: python
         types: [python]
@@ -38,7 +37,6 @@ repos:
       - id: isort
         name: isort
         entry: isort
-        #exclude: '^(?!versions/)'
         files: ^(bot/|core/|src/)
         language: system
         types: [python]
